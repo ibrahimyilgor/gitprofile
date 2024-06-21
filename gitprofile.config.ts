@@ -20,7 +20,7 @@ const CONFIG = {
         limit: 8, // How many projects to display.
         exclude: {
           forks: false, // Forked projects will not be displayed if set to true.
-          projects: [], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
+          projects: ["ibrahimyilgor/gitprofile"], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
         },
       },
       manual: {
@@ -51,16 +51,16 @@ const CONFIG = {
         {
           title: 'Balay | Dirim Hukuk',
           description:
-            'Website for a lawyer company',
+            'Website for a lawyer company. Not in use but source code is accessible in Github',
           imageUrl:
             'https://i.imgur.com/3OOmh32.png',
-          link: 'https://www.balaydirimhukuk.com/',
+          link: '/',
         },
       ],
     },
   },
   seo: {
-    title: 'Portfolio of Ariful Alam',
+    title: 'Portfolio of İbrahim Yılgör',
     description: '',
     imageURL: '',
   },
@@ -88,7 +88,7 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'public/ibrahimresume.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'public/ibrahimyilgorcv.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'JavaScript',
@@ -165,11 +165,11 @@ const CONFIG = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'lofi',
+    defaultTheme: 'dark',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
-    disableSwitch: false,
+    disableSwitch: true,
 
     // Should use the prefers-color-scheme media-query,
     // using user system preferences, instead of the hardcoded defaultTheme
